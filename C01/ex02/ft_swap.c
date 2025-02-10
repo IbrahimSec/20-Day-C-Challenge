@@ -4,10 +4,10 @@
 void ft_swap(int a, int b)
 {
     printf("before a= %d b= %d \n", a , b);
-	int oir;
-    oir = a;
+	int lol;
+    lol = a;
     a = b;
-    b = oir;
+    b = lol;
     printf("after a= %d b= %d \n", a , b);
 }
 
