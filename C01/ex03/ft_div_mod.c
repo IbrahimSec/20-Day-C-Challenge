@@ -9,12 +9,12 @@ void ft_div_mod(int a, int b, int *div, int *mod)
 }
 int main ()
 {
-	int a = 22;
-	int b = 2;
-	int *mod;
-	int *div;
-	ft_div_mod(a , b, div , mod);
-	printf("%d a %d b", *div, *mod);
+	int a = 10;
+	int b = 3;
+	int div;
+	int mod;
+	ft_div_mod(a , b, &div, &mod);
+	printf("%d a %d b", div , mod);
 	return 0;
 }
 
