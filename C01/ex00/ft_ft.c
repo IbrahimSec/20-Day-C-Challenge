@@ -2,7 +2,7 @@
 #include <stdio.h>
 void ft_ft(int *nbr)
 {
-	*nbr = 67;
+	*nbr = 42;
 }
 
 int main()
